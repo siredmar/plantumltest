@@ -8,13 +8,17 @@
       C-->D;
 ```
 
-```plantuml
-@startuml component
-actor client
-node app
-database db
+Regular **Markdown** here.
 
-db -> app
-app -> client
+<!--
+@startuml firstDiagram
+
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+	
 @enduml
-```
+-->
+
+![](firstDiagram.svg)
+
+Some more markdown.
